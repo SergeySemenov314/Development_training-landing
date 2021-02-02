@@ -1,0 +1,577 @@
+@media(max-width: 1120px) {
+    .nav-container {
+        padding: 20px 50px;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .nav-container {
+        padding: 20px 15px;
+    }
+}
+
+@media(max-width: 1120px) {
+    .menu-list {
+        display: none;
+    }
+}
+
+/*----------------Кнопка для мобильной навигации-----------------  */
+@media(max-width: 1120px) {
+    .menu-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* --------------------мобильная навигация------------------------ */
+@media(max-width: 768px) {
+    .mobile-nav {
+        width: 320px;
+        right: -320px;
+
+    }
+}
+
+/*--------------------------- main-image -----------------*/
+
+@media(min-width: 328px) and (max-width: 768px) {
+    .header-main-image {
+        padding: 90px 25px 75px 25px;
+
+    }
+}
+
+@media(max-width: 327px) {
+    .header-main-image {
+        padding: 90px 5px 75px 5px;
+
+    }
+}
+
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    .header-heading {
+        font-size: 45px;
+        line-height: 35px;
+
+    }
+
+    .header-subHeading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-heading {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+
+    .header-subHeading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-buttons-box {
+        margin-bottom: 52px;
+    }
+}
+
+@media (max-width: 575px) {
+    .buttons {
+        width: 180px;
+        padding: 10px 24px;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+
+}
+
+/* ---------------------About Us-------------- */
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    section {
+        padding-right: 45px;
+        padding-left: 45px;
+
+    }
+}
+
+@media (max-width: 575px) {
+    section {
+        padding: 58px 15px;
+    }
+
+    .section-main-text {
+        margin-bottom: 89px;
+    }
+
+    .about-cards-conteiner {
+        flex-wrap: wrap;
+    }
+
+    .about-card-image {
+        margin-bottom: 20px;
+    }
+
+    .about-card-heading {
+        margin-bottom: 14px;
+    }
+
+}
+
+/* ---------------------Our services-------------- */
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    .section-services {
+        padding-right: 45px;
+        padding-left: 45px;
+
+    }
+}
+
+@media (max-width: 575px) {
+
+    .section-services {
+        padding: 58px 15px;
+    }
+}
+@media(max-width: 768px) {
+    .section-services .section-main-text {
+        margin-bottom: 33px;
+    }
+}
+@media(min-width: 1200px) and (max-width: 1380px) {
+
+
+    .service-card {
+        width: 312px;
+        margin: 10px;
+    }
+}
+
+/* -----------------------latest-works--------------------------- */
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    .latest-works {
+        padding-left: 45px;
+
+    }
+}
+
+
+@media(max-width: 576px) {
+    .latest-works {
+        padding-left: 15px;
+
+    }
+
+}
+
+@media(max-width: 576px) {
+    .latest-works .section-main-text {
+        margin-bottom: 46px;
+
+    }
+}
+@media(max-width: 576px) {
+    .works-buttons-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 39px;
+    }
+
+}
+@media(min-width: 576px) and (max-width: 768px) {
+    .works-top-buttons {
+        font-size: 17px;
+    }
+
+}
+
+@media(max-width: 576px) {
+    .works-top-buttons {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media(min-width: 992px) and (max-width: 1370px) {
+
+    .works-image-wrapper {
+        width: 356px;
+    }
+
+    .works-img {
+        height: 356px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px) {
+    .works-image-wrapper {
+        width: 285px;
+    }
+
+    .works-img {
+        height: 285px;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .works-images-container {
+        margin-bottom: 19px;
+    }
+
+    .works-image-wrapper {
+        width: 285px;
+        margin-left: 0;
+    }
+
+    .works-img {
+        height: 285px;
+    }
+}
+
+/*---------------------- prices-section----------------------*/
+
+@media(min-width: 576px) and (max-width: 1370px) {
+
+    .prices-section .section-main-text {
+        margin-bottom: 110px;
+    }
+
+    .prices-card {
+        padding: 29px 70px 42px;
+
+    }
+
+    .offered-services-container {
+        margin-top: 78px;
+        margin-bottom: 42px;
+    }
+
+    .offered-services {
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    .prices-card {
+        padding: 29px 85px 42px;
+        margin-right: 0;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .prices-section .section-main-text {
+        margin-bottom: 47px;
+    }
+
+    .prices-card {
+        padding: 29px 51px 42px;
+        margin-right: 0;
+
+    }
+
+    .offered-services-container {
+        margin-top: 44px;
+        margin-bottom: 32px;
+    }
+
+    .offered-services {
+        margin-bottom: 20px;
+    }
+
+    .prices-card-button {
+        font-size: 15px;
+        width: auto;
+        padding: 11px 10px;
+    }
+}
+
+/* -----------------team-section--------------- */
+
+@media(max-width: 576px) {
+
+    .team-section .section-main-text {
+        margin-bottom: 35px;
+    }
+}
+@media(min-width: 703px) and (max-width: 768px) {
+
+    .team-img-wrapper {
+        width: 300px;
+    }
+
+}
+
+@media(min-width: 476px) and (max-width: 703px) {
+    .team-img-wrapper {
+        width: 264px;
+    }
+
+}
+
+@media(max-width: 476px) {
+    .team-img-wrapper {
+        width: 285px;
+    }
+
+}
+@media(min-width: 483px) and (max-width: 640px) {
+    .team-contact-icon {
+        margin-right: 10px;
+    }
+
+}
+@media(max-width: 768px) {
+    .slider-dots-style {
+        margin-top: 35px;
+
+    }
+}
+
+/* -------------------------blog-section--------------------------- */
+
+@media(min-width: 1100px) and (max-width: 1370px) {
+
+    .blog-section .section-main-text {
+        margin-bottom: 84px;
+    }
+
+    .blog-article-img {
+        width: 485px;
+    }
+
+    .article-text-container {
+        width: 485px;
+    }
+
+    .article-title {
+        margin-top: 35px;
+
+    }
+}
+
+@media(min-width: 1020px) and (max-width: 1100px) {
+
+    .blog-section .section-main-text {
+        margin-bottom: 84px;
+    }
+
+    .blog-article-img {
+        width: 385px;
+    }
+
+    .article-text-container {
+        width: 385px;
+    }
+
+    .article-title {
+        margin-top: 35px;
+
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .blog-section .section-main-text {
+        margin-bottom: 75px;
+    }
+
+    .blog-article:nth-child(2n) .blog-article-img {
+        order: 1;
+    }
+
+    .blog-article:nth-child(2n) .article-text-container {
+        order: 2;
+    }
+
+    .blog-article {
+        margin-bottom: 85px;
+    }
+
+    .article-title {
+        margin-top: 20px;
+    }
+
+    .blog-article-img {
+        margin: 0;
+    }
+
+    .blog-article:nth-child(2n) .blog-article-img {
+        margin: 0;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    .articles-container {
+        margin-bottom: 50px;
+
+    }
+
+    .blog-article:last-child {
+        margin-bottom: 0;
+
+    }
+
+    .blog-article-img {
+        width: 316px;
+    }
+
+    .article-text-container {
+        width: 325px;
+    }
+
+    .article-title {
+        margin-bottom: 15px;
+    }
+
+    .blog-date-topic {
+        margin-bottom: 15px;
+    }
+
+    .blog-button{
+        margin-right: auto;
+    }
+}
+
+
+/* -------------------contact-section---------------------- */
+
+@media(min-width: 1000px) and (max-width: 1370px) {
+    .contact-section {
+        padding: 125px 170px;
+    }
+
+    .contact-text-inputs {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .email-wrapper {
+        margin-right: 0;
+    }
+
+    .name-wrapper{
+        margin-right: 3%;
+
+    }
+
+    .email-wrapper,
+    .name-wrapper{
+        width: 48%;
+
+
+    }
+
+
+
+}
+
+@media(min-width: 1000px) and (max-width: 1370px) {
+    .contact-section {
+        padding: 125px 110px;
+    }
+
+
+}
+
+@media(min-width: 760px) and (max-width: 999px) {
+    .contact-section {
+        padding: 125px 45px;
+    }
+
+
+    .text-inputs-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+    }
+}
+
+
+@media(min-width: 801px) and (max-width: 1025px) {
+    .contact-card {
+        margin-right: 16px;
+
+    }
+}
+
+@media(min-width: 760px) and (max-width: 800px) {
+    .contact-card {
+        margin-right: 0px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .contact-section{
+        padding: 58px 15px;
+    }
+}
+
+@media (max-width: 760px) {
+    
+    .contact-card {
+        width: 245px;
+        margin-right: 0;
+        margin-bottom: 64px;
+    
+    }
+
+    .contacts-cards-container{
+        margin-bottom: 0;
+    }
+
+    .contact-text-inputs {
+        padding: 17px 20px;
+        width: 100%;
+    }
+
+    
+    .email-wrapper,
+    .name-wrapper{
+        width: 100%;
+
+
+    }
+    
+    .name-wrapper{
+        margin-right: 0;
+    }
+
+    .contact-textarea {
+        height: 274px;
+        padding: 17px 20px;
+    }
+
+    .contact-button{
+        width: 135px;
+        height: 57px;
+    }
+
+    .footer-text {
+     font-size: 17px;
+    }
+
+}

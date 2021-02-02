@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-color: rgba(71, 71, 71, 0.699);
+        background: url(images/contact/contact-bg.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .result-message-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.637);
+    }
+
+    .result-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .message {
+        color: white;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .btn-go-back {
+        text-decoration: none;
+        width: 241px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-transform: uppercase;
+        padding: 15px 22px;
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 1px;
+        background: inherit;
+        border: 3px solid #f8f8f8;
+        color: #ffffff;
+        -webkit-transition: background 0.2s;
+        transition: background 0.2s;
+    }
+
+    .btn-go-back:hover {
+        background: #00897b;
+        border: 3px solid #00897b;
+        cursor: pointer;
+    }
+
+    .btn-go-back:focus {
+        outline: none;
+    }
+</style>
+
+<body>
+
+    <div class="result-message-overlay">
+        <div class="result-message">
+            <h1 class="message">Сообщение не было отправлено :(</h1>
+            <a href="index.html" class="btn-go-back">Вернуться обратно</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
